@@ -1,0 +1,16 @@
+package com.example.DATN.dto;
+
+public record AdminVideoDto(
+        Long id,
+        String title,
+        String youtubeUrl,
+        Long channelId,
+        String channelName,
+        Long topicId,
+        String topic,
+        String difficulty,
+        String duration,
+        int wordsHighlighted,
+        String status
+) {
+}
